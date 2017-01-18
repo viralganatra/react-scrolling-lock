@@ -1,0 +1,68 @@
+{
+  "name": "react-scrolling-lock",
+  "version": "1.0.0",
+  "description": "Higher order component for preventing page scrolling outside of a given component",
+  "repository": {
+    "url": "https://github.com/viralganatra/react-scrolling-lock.git",
+    "type": "git"
+  },
+  "author": "Viral Ganatra <viral@viralganatra.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "react",
+    "scroll",
+    "lock",
+    "react-component",
+    "hoc"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "compile": "babel src -d lib",
+    "clean": "rimraf lib",
+    "test:ci": "npm run lint",
+    "lint:src": "eslint src",
+    "lint": "npm run lint:src"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "invariant": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "enzyme": "^2.7.0",
+    "enzyme-to-json": "^1.4.5",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.4",
+    "eslint-plugin-react": "^6.9.0",
+    "jest": "^18.1.0",
+    "jest-cli": "^18.1.0",
+    "react": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "rimraf": "^2.5.4"
+  },
+  "peerDependencies": {
+    "react": "^0.14 || ^15.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./tests/jest-setup.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ]
+  }
+}

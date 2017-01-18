@@ -1,0 +1,36 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "arrow-parens": [0, "always"],
+        "arrow-body-style": [0],
+        "class-methods-use-this": [0],
+        "indent": [0, 4],
+        "new-cap": [0, { "capIsNew": false }],
+        "no-unused-expressions": [0, { "allowShortCircuit": true }],
+        "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
+
+        "react/no-unused-prop-types": [2, { "skipShapeProps": true }],
+        "react/require-default-props": [0],
+
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-boolean-value": [2, "always"],
+
+        "jsx-a11y/label-has-for": [0],
+        "jsx-a11y/no-static-element-interactions": [0],
+
+        "no-unused-vars": [0],
+        "no-unused-vars-rest/no-unused-vars": [2, {"ignoreDestructuredVarsWithRest": true}]
+    },
+    "plugins": [
+        "babel",
+        "react",
+        "no-unused-vars-rest"
+    ]
+}
