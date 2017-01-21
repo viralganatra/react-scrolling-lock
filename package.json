@@ -1,6 +1,6 @@
 {
   "name": "react-scrolling-lock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Higher order component for preventing page scrolling outside of a given component",
   "repository": {
     "url": "https://github.com/viralganatra/react-scrolling-lock.git",
@@ -25,7 +25,8 @@
     "test:dev": "jest --onlyChanged",
     "test:ci": "npm run lint && npm run test",
     "lint:src": "eslint src",
-    "lint": "npm run lint:src"
+    "lint": "npm run lint:src",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "babel-runtime": "^6.18.0",

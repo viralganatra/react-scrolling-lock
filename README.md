@@ -1,5 +1,8 @@
 # React Scrolling Lock
 
+[![build status](https://img.shields.io/travis/viralganatra/react-scrolling-lock/master.svg?style=flat-square)](https://travis-ci.org/viralganatra/react-clickoutside)
+[![npm version](https://img.shields.io/npm/v/react-scrolling-lock.svg?style=flat-square)](https://www.npmjs.com/package/react-scrolling-lock)
+
 This is a higher order component for preventing page scrolling outside of a given component
 
 It supports both class based components and stateless functional components.
