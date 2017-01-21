@@ -5,7 +5,8 @@
   "author": "Viral Ganatra <viral@viralganatra.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dev-server.js"
+    "start": "node dev-server.js",
+    "build": "webpack --config webpack.config.js --env.prod"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

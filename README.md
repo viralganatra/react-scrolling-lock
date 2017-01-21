@@ -11,6 +11,8 @@ It supports both class based components and stateless functional components.
 
 ![alt text](example/demo.gif "Demo")
 
+[https://viralganatra.github.io/demos/react-scrolling-lock/](https://viralganatra.github.io/demos/react-scrolling-lock/)
+
 To build this example, clone this repo, navigate to the example directory and run:
 
 ````

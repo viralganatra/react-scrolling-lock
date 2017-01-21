@@ -1,6 +1,6 @@
 const express = require('express');
 const webpack = require('webpack');
-const config = require('./webpack.config');
+const config = require('./webpack.config')({ dev: true });
 
 const app = express();
 const server = require('http').createServer(app);
