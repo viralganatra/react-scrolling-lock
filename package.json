@@ -18,9 +18,12 @@
   ],
   "scripts": {
     "build": "npm run clean && npm run compile",
-    "compile": "babel src -d lib",
+    "compile": "babel src -d lib --ignore **/*.test.js",
     "clean": "rimraf lib",
-    "test:ci": "npm run lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:dev": "jest --onlyChanged",
+    "test:ci": "npm run lint && npm run test",
     "lint:src": "eslint src",
     "lint": "npm run lint:src"
   },

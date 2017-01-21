@@ -1,0 +1,25 @@
+exports[`ScrollingLock should render correctly 1`] = `
+<div
+  onWheel={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }>
+  <Item />
+</div>
+`;
+
+exports[`ScrollingLock should render correctly 2`] = `
+<div
+  className="test"
+  onWheel={[Function]}>
+  <Item
+    foo="bar" />
+</div>
+`;
+
+exports[`ScrollingLock should render correctly 3`] = `
+"Expected \"WrappedComponent\" provided as the first argument to ScrollLockHOC
+            to be a function. Instead, received undefined."
+`;
