@@ -2,3 +2,4 @@ src
 .babelrc
 .eslintrc
 .travis.yml
+example

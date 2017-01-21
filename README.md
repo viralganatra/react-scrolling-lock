@@ -7,6 +7,17 @@ This is a higher order component for preventing page scrolling outside of a give
 
 It supports both class based components and stateless functional components.
 
+## Demo
+
+![alt text](example/demo.gif "Demo")
+
+To build this example, clone this repo, navigate to the example directory and run:
+
+````
+yarn install
+npm run start
+````
+
 
 ## Installation
 
