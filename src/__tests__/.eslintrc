@@ -1,9 +1,0 @@
-{
-    "env": {
-        "jest": true
-    },
-    "globals": {
-        "shallow": true,
-        "mount": true
-    }
-}
