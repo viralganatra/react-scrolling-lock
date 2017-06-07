@@ -13,8 +13,8 @@ describe('ScrollingLock', () => {
         const wrapperDefault = shallow(<ItemDefault />);
         const wrapperClassName = shallow(<ItemClassName foo="bar" />);
 
-        expect(wrapperDefault).toMatchSnapshot();
-        expect(wrapperClassName).toMatchSnapshot();
+        expect(wrapperDefault).toMatchSnapshot('default');
+        expect(wrapperClassName).toMatchSnapshot('class name');
         expect(() => ScrollingLock()()).toThrowErrorMatchingSnapshot();
     });
 });

@@ -1,19 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ScrollingLock should render correctly 1`] = `
-<div
-  onWheel={[Function]}
-  style={
-    Object {
-      "display": "inline-block",
-    }
-  }
->
-  <Item />
-</div>
+"Expected \\"WrappedComponent\\" provided as the first argument to ScrollLockHOC
+            to be a function. Instead, received undefined."
 `;
 
-exports[`ScrollingLock should render correctly 2`] = `
+exports[`class name 1`] = `
 <div
   className="test"
   onWheel={[Function]}
@@ -24,7 +16,15 @@ exports[`ScrollingLock should render correctly 2`] = `
 </div>
 `;
 
-exports[`ScrollingLock should render correctly 3`] = `
-"Expected \\"WrappedComponent\\" provided as the first argument to ScrollLockHOC
-            to be a function. Instead, received undefined."
+exports[`default 1`] = `
+<div
+  onWheel={[Function]}
+  style={
+    Object {
+      "display": "inline-block",
+    }
+  }
+>
+  <Item />
+</div>
 `;
