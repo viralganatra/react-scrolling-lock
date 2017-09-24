@@ -17,4 +17,14 @@ describe('ScrollingLock', () => {
         expect(wrapperClassName).toMatchSnapshot('class name');
         expect(() => ScrollingLock()()).toThrowErrorMatchingSnapshot();
     });
+
+    it('should allow an empty class name', () => {
+        const ItemBlankClassName = ScrollingLock({
+            className: '',
+        })(Item);
+
+        const wrapper = shallow(<ItemBlankClassName />);
+
+        expect(wrapper).toMatchSnapshot();
+    });
 });

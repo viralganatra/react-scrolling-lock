@@ -44,7 +44,7 @@ export default function ScrollLockHOC({ className } = {}) {
                     },
                 };
 
-                if (className) {
+                if (className !== undefined) {
                     props = { className };
                 }
 

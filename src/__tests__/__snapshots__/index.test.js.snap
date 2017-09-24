@@ -1,5 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`ScrollingLock should allow an empty class name 1`] = `
+<div
+  className=""
+  onWheel={[Function]}
+>
+  <Item />
+</div>
+`;
+
 exports[`ScrollingLock should render correctly 1`] = `
 "Expected \\"WrappedComponent\\" provided as the first argument to ScrollLockHOC
             to be a function. Instead, received undefined."
