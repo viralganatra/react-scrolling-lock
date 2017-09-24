@@ -9,6 +9,9 @@ const Component = () => {
 
     const scrollingComponentStyles = {
         height: '600px',
+        color: 'white',
+        backgroundColor: '#1abc9c',
+        padding: '10px',
     };
 
     return (
