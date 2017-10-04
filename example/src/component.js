@@ -4,7 +4,7 @@ const Component = () => {
     const scrollingContainerStyles = {
         height: '300px',
         overflow: 'auto',
-        width: '200px',
+        width: '250px',
     };
 
     const scrollingComponentStyles = {
@@ -16,7 +16,8 @@ const Component = () => {
 
     return (
         <div style={scrollingContainerStyles}>
-            <div style={scrollingComponentStyles}>Scrolling Component</div>
+            <div style={scrollingComponentStyles}>
+                <p>Scrolling Component - Scroll Me</p></div>
         </div>
     );
 };

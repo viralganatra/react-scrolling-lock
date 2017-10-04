@@ -6,7 +6,11 @@ const ComposedComponent = ScrollingLock()(ComponentToScrollLock);
 
 const Demo = () => (
     <div style={{ height: '3000px' }}>
-        <ComposedComponent />
+        <div style={{ display: 'flex' }}>
+            <ComposedComponent />
+
+            <p style={{ marginLeft: '50px' }}>Scroll The Page</p>
+        </div>
     </div>
 );
 

@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 
 app.use('/', express.static('.'));
 
-server.listen(port, 'localhost', err => {
+server.listen(port, 'localhost', (err) => {
     if (err) {
         console.log(err);
         return;
