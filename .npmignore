@@ -3,3 +3,4 @@ src
 .eslintrc
 .travis.yml
 example
+rollup-config.js
